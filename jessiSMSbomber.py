@@ -827,7 +827,7 @@ def send_service(number, service):
     else:
         all_sends += 1
         failed_sends += 1
-        print(f"[-] {all_sends} {result[1]}")
+        print(f"[+] {all_sends} {result[1]}")
 
 def send(number, amount, worker_amount):
     global clear
